@@ -1,143 +1,105 @@
-Calculator Application (Python)
+# Calculator Application (Python)
 
-A menu-driven Python calculator application that performs basic arithmetic operations with a clean structure, reusable functions, and user-friendly interaction through the terminal.
+This is a menu-driven Python calculator application that performs basic arithmetic operations.  
+The project is designed using core Python concepts with a simple and clear structure, making it suitable for beginners who are learning Python programming.
 
-Project Analysis & Improvements
- Features Implemented
+---
 
-Modular design using functions
+## Project Description
 
-Menu-driven interface using while loop
+The calculator allows users to perform arithmetic operations such as addition, subtraction, multiplication, and division through a terminal-based menu.  
+The program runs continuously until the user chooses to exit.
 
-Supports continuous calculations until user exits
+---
 
-Handles division by zero safely
+## Features
 
-Uses dictionary + lambda functions for clean operation mapping
+- Menu-driven interface
+- Uses separate functions for each operation
+- Continuous execution using a loop
+- Handles division by zero safely
+- User-friendly input and output
+- Clean and readable code structure
 
-Maintains history of calculations
+---
 
- Concepts Used
+## Concepts Used
 
-This project is built using core Python fundamentals, making it ideal for beginners:
+This project is built using fundamental Python concepts:
 
-Data Types
+### Data Types
+- Integers
+- Floating point numbers
+- Strings
+- Lists
+- Dictionaries
+- Booleans
 
-Numbers (int, float)
+### Control Statements
+- if / elif / else
+- while loop
 
-Strings
+### Programming Concepts
+- Functions
+- Lambda expressions
+- Dictionary-based function mapping
+- List for storing calculation history
+- Input and output handling
+- Basic error handling
 
-Lists
+---
 
-Dictionaries
+## Project Structure
 
-Booleans
-
-Control Flow
-
-if / elif / else
-
-while loop
-
-Functions
-
-Lambda Expressions
-
-Dictionary-based function mapping
-
-List for storing calculation history
-
-Input / Output handling
-
-Error handling (division by zero)
-
- Project Structure
 python-calculator/
-├── calculator.py        # Main calculator program
-└── README.md            # Project documentation
-
- How to Run
-Requirements
-
-Python 3.x installed
-
-Steps
-python calculator.py
-
- Application Menu
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. View History
-6. Exit
-
- Sample Output
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. View History
-6. Exit
-
-Enter your choice: 1
-Enter first number: 10
-Enter second number: 5
-Result: 15
-
-History Output
---- Calculation History ---
-Addition: 10 and 5 = 15
-Multiplication: 4 and 6 = 24
-----------------------------------
-
- Core Logic (Overview)
-
-Dictionary + Lambda approach is used to map operations:
-
-operations = {
-    '1': ("Addition", lambda a, b: a + b),
-    '2': ("Subtraction", lambda a, b: a - b),
-    '3': ("Multiplication", lambda a, b: a * b),
-    '4': ("Division", lambda a, b: a / b if b != 0 else "Error")
-}
+├── Calculator.py # Main calculator program
+└── README.md # Project documentation
 
 
-History tracking is done using a list:
+---
 
-history = []
+## How to Run the Program
 
- Edge Cases Handled
+### Requirements
+- Python 3.x installed on the system
 
-Division by zero
+### Steps
+1. Open terminal or command prompt
+2. Navigate to the project directory
+3. Run the following command:
 
-Invalid menu choices
+###python Calculator.py
+-Application Menu
+-1. Addition
+-2. Subtraction
+-3. Multiplication
+-4. Division
+-5. Exit
 
-Continuous execution until exit
+-Sample Output
+-Enter your choice: 1
+-Enter first number: 10
+-Enter second number: 5
+-Result: 15
 
- Future Improvements
+##Edge Cases Handled
+-Division by zero
+-Invalid menu choices
+-Program continues running until exit option is selected
 
-Add GUI using Tkinter or JavaFX-style UI
+##Future Improvements
+-Add calculation history display
+-Save calculation history to a file
 
-Add scientific calculator functions
+###Author
 
-Save calculation history to file
+##Meet Tailor
+-Python Programming Learner
+-GitHub: https://github.com/MeetTailor-Data
 
-Support keyboard shortcuts
+##License
+-This project is created for learning and educational purposes.
 
-Add unit testing
-
- Author
-
-Meet Tailor
-Python & Programming Enthusiast
-GitHub:https://github.com/MeetTailor-Data
-
- License
-
-This project is created for learning and educational purposes.
-
- Status
-
- Fully working
- Last Updated: 2026
+##Status
+-Project Status: Completed
+-Last Updated: 2026
