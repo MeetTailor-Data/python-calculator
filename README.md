@@ -117,7 +117,6 @@ Result: 15
 
 **Meet Tailor**
 Python Programming Learner
-GitHub: https://github.com/MeetTailor-Data
 
 ---
 
